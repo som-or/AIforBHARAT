@@ -31,7 +31,7 @@ graph TD
     A[Chat Start: What do you sell?] --> B[Natural Product Description]
     B --> C[AI Extracts: Name, Category, Type]
     C --> D{Need Clarification?}
-    D -->|Yes| E[3-6 Contextual Options + "Don't Know"]
+    D -->|Yes| E[3-6 Contextual Options + Don't Know]
     D -->|No| F[Smart Cost Discovery]
     E --> F
     F --> G[Ask key costs (materials, packaging, time-to-make)]
