@@ -34,7 +34,7 @@ graph TD
     D -->|Yes| E[3-6 Contextual Options + Don't Know]
     D -->|No| F[Smart Cost Discovery]
     E --> F
-    F --> G[Ask key costs (materials, packaging, time-to-make)]
+    F --> G[Ask key costs - materials, packaging, time-to-make]
     G --> H{Missing/Unsure?}
     H -->|Yes| I[Estimate missing costs + mark as Assumed]
     H -->|No| J[Costs ready]
