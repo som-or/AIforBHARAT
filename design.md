@@ -28,7 +28,7 @@ The AI Pricing Assistant transforms pricing confusion into profitable confidence
 
 ```mermaid
 graph TD
-    A[Chat Start: "What do you sell?"] --> B[Natural Product Description]
+    A[Chat Start: What do you sell?] --> B[Natural Product Description]
     B --> C[AI Extracts: Name, Category, Type]
     C --> D{Need Clarification?}
     D -->|Yes| E[3-6 Contextual Options + "Don't Know"]
@@ -103,7 +103,7 @@ graph TB
         SafetyEngine[Anti-Loss Protection Engine]
         CostBuilder[Smart Cost Analysis Engine]
         GSTCalc[GST Calculator]
-        MarketCtx[Market Price Context (Optional)]
+        MarketCtx[Market Price Context- Optional]
     end
     
     subgraph "Data Layer"
